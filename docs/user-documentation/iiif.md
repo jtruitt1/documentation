@@ -15,7 +15,7 @@ At a practical level, because Islandora supports several of the IIIF specificati
 
 If you're not using one of our provisioning tools, you will need to:
 * install and configure the Cantaloupe (or another IIIF-compliant) image server
-* install a [viewer](../file-viewers) module and configure it to point to the IIIF Image server location
+* install a [viewer](../file_viewers) module and configure it to point to the IIIF Image server location
 * if using the viewer to show single images, configure it as a file formatter in one of the display modes for your media.
 * if using the viewer to show multi-paged content, install the [Islandora IIIF](https://github.com/Islandora/islandora/tree/2.x/modules/islandora_iiif) module and create a IIIF view (see the one in the Starter Site as an example), then configure the viewer's _block_ to show up where desired (see below for details on how it could be configured)
 
